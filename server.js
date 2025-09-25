@@ -20,7 +20,7 @@ connectDB();
 const app = express();
 
 app.use(cors({
-    origin: "https://instagram-frontend-ecru.vercel.app/",
+    origin: "https://instagram-frontend-ecru.vercel.app",
     credentials: true
 }));
 app.use(express.json());
